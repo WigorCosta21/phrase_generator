@@ -58,7 +58,8 @@
   text-align: center;
 }
 
-.phrases__area p {
+.phrases__area {
   font-family: 'Lato', sans-serif;
   font-size: 1.25rem;
+  border-radius: 4px;
 }

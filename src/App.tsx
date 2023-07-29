@@ -14,7 +14,7 @@ const App = () => {
       Math.random() * data[selectedCategory].phrases.length
     );
 
-    setTextPhrases(`${data[selectedCategory].phrases[randomNumber]}`);
+    setTextPhrases(`"${data[selectedCategory].phrases[randomNumber]}"`);
   };
 
   return (
